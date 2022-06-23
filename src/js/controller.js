@@ -105,6 +105,11 @@ const controlAddRecipe = async function (newRecipe) {
   }
 };
 
+const welcomeMess = function () {
+  console.log("Hi");
+};
+welcomeMess();
+
 const init = function () {
   bookmarksView.addHandlerRender(controlBookmarks);
   recipeView.addHandlerRender(controlRecipes);
